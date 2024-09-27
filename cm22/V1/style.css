@@ -11,11 +11,7 @@ html {
   @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
   }
-.aside { 
-    position: absolute;
-    left: 0%;
 
-}
 .lovebomber { 
     position: absolute;
     left:18%;
@@ -26,10 +22,15 @@ html {
     right: 17.5%;
     margin-top: 1rem;
 }
-.section { 
-    margin-left: 45%;
-    
+.flex-container { 
+    display: flex;
+    width: 100%;
+    flex-direction: row;
 }
+.aside {  
+
+}
+
 .about {
     color: #ecd1c8;
     text-align: center;
