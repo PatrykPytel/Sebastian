@@ -2,7 +2,15 @@ html {
     font-size: 36px;
     color: white;
     line-height: 1.5;
+    font-weight: 500;
 }
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
 .aside { 
     position: absolute;
     left: 0%;
@@ -21,4 +29,18 @@ html {
 .section { 
     margin-left: 45%;
     
+}
+.about {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.naglowek { 
+    text-align: center;
+    background-color: #e14d2b;
+    color: #ecd1c8;
+}
+.body  { 
+    background-color: #171515;
 }
