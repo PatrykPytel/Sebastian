@@ -1,0 +1,24 @@
+html { 
+    font-size: 36px;
+    color: white;
+    line-height: 1.5;
+}
+.aside { 
+    position: absolute;
+    left: 0%;
+
+}
+.lovebomber { 
+    position: absolute;
+    left:18%;
+    bottom:-61.5% ;
+}
+.sym  { 
+    position: absolute;
+    right: 17.5%;
+    margin-top: 1rem;
+}
+.section { 
+    margin-left: 45%;
+    
+}
